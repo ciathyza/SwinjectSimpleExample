@@ -15,6 +15,15 @@ DEPENDENCIES:
   - Swinject (= 2.0.0)
   - SwinjectStoryboard (= 1.0.0)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Nimble
+    - Quick
+    - SwiftyJSON
+    - Swinject
+    - SwinjectStoryboard
+
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
   Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
@@ -25,4 +34,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: bae8b5b26789120a9333dd860773a03273eb320f
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.6.1

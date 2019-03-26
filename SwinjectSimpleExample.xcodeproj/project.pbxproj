@@ -135,14 +135,14 @@
 		98BA27321B785EB00047549E /* SwinjectSimpleExample */ = {
 			isa = PBXGroup;
 			children = (
-				9878A1E41B7874420005ACD9 /* Model */,
+				98BA273F1B785EB00047549E /* Info.plist */,
 				98BA27331B785EB00047549E /* AppDelegate.swift */,
 				981107851BFED52700B861E1 /* SwinjectStoryboard+Setup.swift */,
 				9878A1F21B78B9610005ACD9 /* WeatherTableViewController.swift */,
-				98BA27371B785EB00047549E /* Main.storyboard */,
 				98BA273A1B785EB00047549E /* Assets.xcassets */,
 				98BA273C1B785EB00047549E /* LaunchScreen.storyboard */,
-				98BA273F1B785EB00047549E /* Info.plist */,
+				98BA27371B785EB00047549E /* Main.storyboard */,
+				9878A1E41B7874420005ACD9 /* Model */,
 			);
 			path = SwinjectSimpleExample;
 			sourceTree = "<group>";
@@ -179,7 +179,6 @@
 				98BA272D1B785EB00047549E /* Frameworks */,
 				98BA272E1B785EB00047549E /* Resources */,
 				480C56E96C15E9CCA6F3E0E6 /* [CP] Embed Pods Frameworks */,
-				8E432AA990DF980A355498DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +198,6 @@
 				98BA27411B785EB00047549E /* Frameworks */,
 				98BA27421B785EB00047549E /* Resources */,
 				05D910805440901243600300 /* [CP] Embed Pods Frameworks */,
-				469860C7223815D515A76DB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +220,7 @@
 				TargetAttributes = {
 					98BA272F1B785EB00047549E = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CEARDJ4ZVE;
 						LastSwiftMigration = 0810;
 					};
 					98BA27431B785EB00047549E = {
@@ -277,28 +276,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwinjectSimpleExampleTests/Pods-SwinjectSimpleExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectSimpleExampleTests/Pods-SwinjectSimpleExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		469860C7223815D515A76DB1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectSimpleExampleTests/Pods-SwinjectSimpleExampleTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwinjectSimpleExampleTests/Pods-SwinjectSimpleExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		480C56E96C15E9CCA6F3E0E6 /* [CP] Embed Pods Frameworks */ = {
@@ -307,28 +300,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwinjectSimpleExample/Pods-SwinjectSimpleExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectSimpleExample/Pods-SwinjectSimpleExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E432AA990DF980A355498DB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectSimpleExample/Pods-SwinjectSimpleExample-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwinjectSimpleExample/Pods-SwinjectSimpleExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9472894116C83F6F5EA48DCA /* [CP] Check Pods Manifest.lock */ = {
@@ -337,13 +324,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwinjectSimpleExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A6088DC68474DB0398F634D5 /* [CP] Check Pods Manifest.lock */ = {
@@ -352,13 +342,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwinjectSimpleExampleTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -509,9 +502,10 @@
 			baseConfigurationReference = 5305AEDB5ADADD3D1FD423CD /* Pods-SwinjectSimpleExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CEARDJ4ZVE;
 				INFOPLIST_FILE = SwinjectSimpleExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectSimpleExample";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciathyza.SwinjectSimpleExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -522,9 +516,10 @@
 			baseConfigurationReference = 65D1ADF2B07B989D39FB9AB8 /* Pods-SwinjectSimpleExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CEARDJ4ZVE;
 				INFOPLIST_FILE = SwinjectSimpleExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.el-eleven.SwinjectSimpleExample";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciathyza.SwinjectSimpleExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
