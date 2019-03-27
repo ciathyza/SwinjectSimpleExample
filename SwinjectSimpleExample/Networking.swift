@@ -8,6 +8,8 @@
 
 import Foundation
 
-protocol Networking {
-    func request(_ response: @escaping (Data?) -> ())
+
+protocol Networking
+{
+	func request(_ response:@escaping (Data?) -> ())
 }

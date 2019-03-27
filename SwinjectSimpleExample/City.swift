@@ -8,8 +8,10 @@
 
 import Foundation
 
-struct City {
-    let id: Int
-    let name: String
-    let weather: String
+
+struct City
+{
+	let id:Int
+	let name:String
+	let weather:String
 }
